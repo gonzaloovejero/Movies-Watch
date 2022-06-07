@@ -1,0 +1,46 @@
+.movieCard {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+.movieCard:hover{
+    overflow:hidden;
+    color: rgba(211, 209, 209, 0.829);
+    cursor: pointer;
+    filter: saturate(130%);
+}
+
+.movieImage {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.movieTitle {
+    color: white;
+    text-align: center;
+}
+
+
+.cardLink{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.cardLink:hover{
+    color: rgba(255, 0, 0, 0.692);
+}
+
+
+@media (max-width: 560px) {
+
+    .movieImage {
+        width: 90%;
+        height: auto;
+    }
+
+    .movieTitle{
+        text-align: center;
+    }
+
+}
